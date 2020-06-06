@@ -44,18 +44,18 @@ int main(){
 		
 		if (opcion==7){
 			
-			printf("\n Dame el primer valor: ");
+			printf("\n Dame el primer número: ");
 	
 			scanf("%f", &n1);
 	
 		}else if(opcion>=8){
 	
 		}else{
-			printf("\n Dame el primer valor: ");
+			printf("\n Dame el primer número: ");
 	
 			scanf("%f", &n1);
 	
-			printf("\n Dame el segundo valor: ");
+			printf("\n Dame el segundo número: ");
 	
 			scanf("%f", &n2);
 	
@@ -235,4 +235,5 @@ float Porcentaje(float n1){
 	return res; 
 	
 } //fin PORCENTAJE
+
 
